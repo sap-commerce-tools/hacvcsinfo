@@ -1,6 +1,6 @@
-# Version Control Infos for Administartion Console
+# Version Control Infos for Administration Console
 
-This extensions adds a "Version Information" tab to the hybris administration console.
+This extension adds a "Version Information" tab to the hybris administration console.
 
 The displayed properties (`hacvcsinfo/resources/hacvcsinfo/vcs.properties`) are generated in `buildcallbacks.xml`, and contain:
 
