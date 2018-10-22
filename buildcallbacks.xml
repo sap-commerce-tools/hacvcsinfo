@@ -10,18 +10,6 @@
  license agreement you entered into with SAP.
 --><project>
 
-	<macrodef name="hacvcsinfo_before_build">
-		<sequential>
-			<!--bug in platform, copy shouldn't be necessary-->
-			<copy todir="${ext.hac.path}/web/webroot/WEB-INF/jsp">
-				<fileset dir="${ext.hacvcsinfo.path}/hac/resources/jsp"/>
-			</copy>
-			<copy todir="${ext.hac.path}/web/webroot/static/">
-				<fileset dir="${ext.hacvcsinfo.path}/hac/resources/static"/>
-			</copy>
-		</sequential>
-	</macrodef>
-
 	<macrodef name="hacvcsinfo_after_build">
 		<sequential>
 			<!--you may want to change the dir="..." property -->
