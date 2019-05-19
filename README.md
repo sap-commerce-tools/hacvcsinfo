@@ -1,4 +1,5 @@
 # Version Control Infos for Administration Console
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W7VS24)
 
 This extension adds a "Version Information" tab to the hybris administration console.
 
